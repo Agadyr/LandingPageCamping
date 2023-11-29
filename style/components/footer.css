@@ -1,0 +1,65 @@
+footer{
+    background-color: #F8E1DB;
+    border-radius: 100px 100px 0px 0px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: relative;
+}
+p{
+    line-height: 25px;
+}
+.ourapp p{
+    max-width: 450px;
+    margin: 20px 0;
+}
+.ourapp h2{
+    margin-bottom: 20px;
+}
+footer p,h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+footer h1,h2{
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+}
+.footer-elem{
+    display: flex;
+    gap: 20px;
+}
+footer h3{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.totop{
+    bottom: 5%;
+    right: 10%;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 50%;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+    position: fixed;
+}
+#arrow.active {
+    opacity: 1;
+    background-color: #007bff;
+    transition: opacity 4s ease, background-color 3s ease, transform 0.3s ease;
+  }
+.totop:hover{
+    background-color: #44436B;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.moon{
+    background-color: #2d2d2d;
+}
+.sun{
+    background-color: #FAF4F2;
+}
+.close{
+    display: none;
+}

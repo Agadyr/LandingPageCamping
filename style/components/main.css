@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+.main h1{
+    font-weight: 600;
+    color: #fff;
+    font-size: 52px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    max-width: 350px;
+    text-align: center;
+}
+.main p{
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    margin: 35px 0;
+}
+.main button{
+    background-color: #E76F51;
+    border-radius: 100px;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+}

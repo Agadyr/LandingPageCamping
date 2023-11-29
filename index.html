@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body class="body">
+    <header>
+
+        <!-- <img class="fon" src="images/fon2.jpg" alt=""> -->
+        <div class="overlay">
+            <div class="header-block">
+                <div class="header-left">
+                    <div class="header-logo">
+                        <img src="images/logo.svg" alt="">
+                    </div>
+                    <div class="header-nav">
+                        <a href="">Home</a>
+                        <a href="">Destination</a>
+                        <a href="">Near me</a>
+                        <a href="">Events</a>
+                        <a href="">Blog</a>
+                        <a href="">Gallery</a>
+                        <a href="">About</a>
+                        <a href="">Contact us</a>
+                    </div>
+                    <div class="burger-menu">
+                            <i onclick="OpenModel()" id="menu-icon" class="fa-solid fa-bars"></i>
+                            <div id="burgermenu" class="menu-modal">
+                                <a href="">Home</a>
+                                <a href="">Destination</a>
+                                <a href="">Near me</a>
+                                <a href="">Events</a>
+                                <a href="">Blog</a>
+                                <a href="">Gallery</a>
+                                <a href="">About</a>
+                                <a href="#footer">Contact us</a>
+                                <div class="burger-reg-log">
+                                    <button class="sign-up">Sign-up</button>
+                                    <button class="sign-in btn">Sign-in</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="header-right " id="header-right">
+                    <div class="reg-log">
+                        <button class="sign-up">Sign-up</button>
+                        <button class="sign-in btn">Sign-in</button>
+                    </div>
+
+                    <div class="change-theme">
+                        <button  class="change-theme-btn btn">
+                            <i onclick="Changemoon()" id="moon" class="fa-regular fa-moon fa-rotate-180"></i>
+                            <i onclick="Changesun()" id="sun" class="fa-regular fa-sun"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <h1 id="mainh1">Find Yourself Outside</h1>
+                <p>Book unique camping experiences on over 300,000 campsites,
+                    cabins, RV parks, public parks and more.</p>
+                <button>
+                    Discover
+                </button>
+            </div>
+        </div>
+        
+    </header>
+    <div class="cards">
+        <div class="card">
+            <img src="images/fire.svg.png" alt="">
+            <h1>Camping & Day Use</h1>
+            <p>Return to your favorite spot or discover
+                a new one that’s right for you.</p>
+        </div>
+        <div class="card">
+            <img src="images/tickets.svg.png" alt="">
+            <h1>Camping & Day Use</h1>
+            <p>Reserve tours and tickets to participate
+                in events.</p>
+        </div>
+        <div class="card">
+            <img src="images/paper.svg fill.png" alt="">
+            <h1>Permits</h1>
+            <p>Obtain permits for access to high-
+                demand locations.</p>
+        </div>
+        <div class="card">
+            <img src="images/fish.svg.png" alt="">
+            <h1>Recreation Activities</h1>
+            <p>Find the best spots for hunting, fishing
+                & recreational shooting.</p>
+        </div>
+    </div>
+    <div class="explore">
+        <img src="images/destination.svg.png" alt="">
+        <h1 id="h1theme">Explore Destinations<br>
+            & Activities</h1>
+    </div>
+    <div class="cards-activate">
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/1.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/2.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/3.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/4.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/5.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>  
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/6.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/7.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+        <div class="card-activate">
+            <div class="image-card">
+                <img src="/images/photos/8.png" alt="">
+                <div class="price-like">
+                    <i class="fa-solid fa-heart p-i"></i>
+                    <i class="fa-regular fa-heart n-i" style="color: #e76f51;"></i>
+                    <button>$36/night</button>
+                </div>
+            </div>
+            <div class="card-activate-bottom">
+                <h1>The Summit Cabin</h1>
+                <p>Book unique camping experiences on
+                    over 300,000 campsites.</p>
+                    <button class="btn-read">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="view-btn">
+        <button class="view">View all</button>
+    </div>
+    <div class="SectionStay">
+        <img src="images/photos/Section.png" alt="">
+    </div>
+    <footer id="footer">
+        <div class="totop">
+            <img id="arrow" src="images/photos/linetop.svg" alt="">
+        </div>
+        <div class="ourapp">
+            <h1>Hipcamp is everywhere you want to camp.</h1>
+            <p>Discover unique experiences on ranches, nature preserves, farms,
+                vineyards, and public campgrounds across the U.S. Book tent
+                camping, treehouses, cabins, yurts, primitive backcountry sites, car
+                camping, airstreams, tiny houses, RV camping, glamping tents and
+                more.</p>
+            <h2>Download Our App</h2>
+            <div class="apps">
+                <img src="images/apps.png" alt="">
+                <img src="images/goog.png" alt="">
+            </div>
+        </div>
+        <div class="footer-elem">
+            <div class="gettoknow">
+                <h1>Get to Know Us</h1>
+                <h3>About Us</h3>
+                <h3>Rules & Reservation
+                    Policies</h3>
+                <h3>Accessibility</h3>
+                <h3>Media Center</h3>
+                <h3>Site Map</h3>
+            </div>
+            <div class="gettoknow">
+                <h1>Get to Know Us</h1>
+                <h3>About Us</h3>
+                <h3>Rules & Reservation
+                    Policies</h3>
+                <h3>Accessibility</h3>
+                <h3>Media Center</h3>
+                <h3>Site Map</h3>
+            </div>
+            <div class="gettoknow">
+                <h1>Get to Know Us</h1>
+                <h3>About Us</h3>
+                <h3>Rules & Reservation
+                    Policies</h3>
+                <h3>Accessibility</h3>
+                <h3>Media Center</h3>
+                <h3>Site Map</h3>
+            </div>        
+        </div>
+    
+    </footer> 
+    <script src="anime.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/46e5ccd8d3.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: -120px;
+    position: relative;
+    z-index: 999;
+}
+.card{
+    padding: 20px;
+    background-color: #fff;
+    gap: 10px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.card p{
+    width: 250px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.card h1{
+    margin: 10px 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+body{
+    background-color: #FAF4F2;
+}
+
+
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.explore h1{
+    font-weight: 900;
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.cards-activate{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-activate{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 310px;
+    height: 420px;
+    margin-top: 20px;
+}
+.image-card{
+    position: relative;
+}
+.image-card img{
+    border-radius: 20px;
+}
+.price-like i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FAF4F2;
+    background-color: #fff; 
+    padding: 5px; 
+    border-radius: 10px;
+    
+}
+.n-i:hover{
+    display: none;
+    color: #E76F51;
+    transition: .4s;
+}
+.p-i:hover{
+    color: #E76F51;
+    transition: .4s;
+    z-index: 55;
+    cursor: pointer;
+}
+.price-like button{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 25px 10px 25px;
+    color: #E76F51;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+.card-activate-bottom{
+    margin-top: 40px;
+    text-align: center;
+}
+.card-activate-bottom p,h1,button{
+    font-family: 'Roboto',sans-serif;
+}
+.card-activate-bottom p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-activate-bottom h1{
+    font-weight: 900;
+    font-family: 'Archivo', sans-serif;
+}
+.btn-read{
+    background-color:#8D8D8D1A ;
+    border: none;
+    color: #8D8D8D;
+    font-size: 16px;
+    font-weight: 500;
+    padding:15px 50px ;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.btn-read:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    background:transparent;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    border-radius: 100px;
+    padding: 10px 40px;
+    margin: 25px 0 35px 0px;
+}
+
+@media (max-width:1561px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(45% - 20px);
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:1224px) {
+    footer{
+        justify-content: center;
+    }
+    .footer-elem{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+}
+@media (max-width:1086px) {
+    .card-activate{
+        width: 48%;
+        height: 100%;
+    }
+    .image-card{
+        width: 100%;
+    }
+    .image-card img{
+        width: 100%;
+    }
+}
+@media (max-width:940px) {
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: calc(90% - 20px);
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:851px) {
+    footer{
+        flex-direction: column;
+        width: 100%;
+        padding: 40px;
+        padding-top: 50px;
+    }
+    .footer-elem{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .gettoknow{
+        width: 100%;
+    }
+    .ourapp{
+        width: 100%;
+    }
+
+}
+@media (max-width:730px) {
+    .card-activate{
+        width: 100%;
+        height: 100%;
+    }
+    .image-card{
+        width: 100%;
+    }
+    .image-card img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,93 @@
+.burger-menu{
+    display: none;
+    position: relative;
+}
+.burger-menu i{
+    width: 20px;
+}
+
+.menu-modal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    margin-top: 12px;
+    background-color: #E76F51;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+.menu-modal a{
+    width: 200px;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+.menu-modal a:hover{
+    transition: .4s;
+}
+.menu-modal a:before{
+content: "";
+  position: absolute;
+  width: 0; 
+  height: 2px; /* Высота вашего бордера */
+  bottom: 0;
+  left: 0;
+  background-color: rgb(244, 244, 247); /* Цвет бордера */
+  transition: width 0.3s ease;
+}
+.menu-modal a:hover::before{
+    width: 100%;
+}
+.open{
+    display: flex;
+    transition: .4s;
+}
+button{
+    cursor: pointer;
+}
+
+@media(max-width:1008px) {
+    .burger-menu{
+        display: flex;
+        margin-left: 15px;
+    }
+    .burger-menu i{
+        font-size: 20px;
+        color: white;
+        
+    }
+    .burger-menu i:hover{
+        color: #E76F51;
+        transition: .5s;
+        cursor: pointer;
+        
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-block{
+        width: 100%;
+        padding: 20px 20px;
+        
+    }
+    .header-logo{
+        margin-right: 0;
+    }
+}
+@media(max-width:640px) {
+    .reg-log{
+        display: none;
+    }
+    .burger-reg-log{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .main p{
+        width: 250px;
+    }
+}
